@@ -13,9 +13,9 @@ public class LoginPage extends BasePage {
 
 
     public void beLogin() throws InterruptedException {
-        typeForLogin(typeEmailLocation,"nurseli.kaya_1997@outlook.com");
+        typeForLogin(typeEmailLocation,"nurselii07@gmail.com");
         Thread.sleep(500);
-        typeForLogin(typePasswordLocation,"123456nurseli");
+        typeForLogin(typePasswordLocation,"12345Nurseli12.");
         Thread.sleep(500);
         find(loginButtonLocation).click();
         Thread.sleep(500);
